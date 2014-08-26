@@ -8,6 +8,6 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "opengpg": "~0.7.2"
+    "openpgp": "~0.7.2"
   }
 }
