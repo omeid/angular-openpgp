@@ -7,7 +7,7 @@ var gulp       = require('gulp')
 
 gulp.task('build', function(){
   //Grab the files.
-   gulp.src(['bower_components/opengpg/dist/openpgp.js', 'src/angular-opengpg.js'])
+   gulp.src(['bower_components/opengpg/dist/openpgp.js', 'src/angular-openpgp.js'])
   //Concat
    .pipe(concat('angular-opengpg.js').on('error', gutil.log))
    .pipe(gulp.dest('./dist').on('error', gutil.log))
